@@ -5,6 +5,8 @@ body {
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 
 .header {
@@ -269,6 +271,7 @@ body {
 
 .main {	
 	background: #F5F5F5;
+	flex-grow: 1;
 }
 
 .main__who-we-are {
